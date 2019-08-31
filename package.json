@@ -1,0 +1,28 @@
+{
+  "name": "gamesNET",
+  "version": "1.0.0",
+  "description": "A Simple SPA for GamesNET Discord Server",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/views/index.pug --log-level 4",
+    "build": "parcel build src/views/index.pug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "parcel-bundler": "^1.12.3",
+    "pug": "^2.0.4",
+    "sass": "^1.22.10"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
